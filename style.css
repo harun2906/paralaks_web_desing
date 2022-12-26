@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+ 
+}
+
+
+.image {
+  width: 100vw;
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.image__first {
+    height: 91vh;
+    background-image: url(./image/dumbbells-2465478_1280.jpg);
+}
+.image__second{
+    height: 100vh;
+
+    background-image: url(./image/jogging-2343558_1920.jpg);
+}
+.image__third{
+    height: 100vh;
+    background-image: url(./image/woman-2250970_1280.jpg);
+}
+.image__fourth{
+    height: 100vh;
+    background-image: url(./image/man-2264825_1280.jpg);
+
+}
+.image__fifth{
+    height: 100vh;
+    background-image: url(./image/yoga-1842292_1280.jpg);
+}
+.middle__explain1{
+    text-align: center;
+    font-size: 48px;
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    right: 40%;
+    min-width: 275px;
+    background-color:rgba(0, 0, 255, 0.45);
+    color: white;
+    padding: 1rem;
+    outline: 2px solid red;
+    outline-offset: 1rem;
+    border-radius: 32px 0px;
+    outline-width: 2rem;
+   
+}
+
+    
+
+section{
+    width: 100vw;
+    height: 25vh;
+    background-color: #85FFBD;
+  background-color: rgb(192, 190, 78);
+    overflow:auto;
+ 
+ 
+    
+
+}
+
+nav{
+    text-align: center;
+    background-color: rgb(134, 164, 205);
+    height: 8vh;
+    padding-top: 2rem;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+ 
+  
+
+
+    
+
+}
+nav a{
+    text-decoration: none;
+    margin-left: 4rem;
+    font-size: 2.5vh;
+    font-weight: 900;
+ 
+}
+h2{
+    text-align: center;
+    height: 30px;
+    padding: 20px 0px;
+    font-size: 2rem;
+}
+p{
+    text-align: center;
+    height: 200px;
+    padding: 20px 80px;
+    font-size: 1.5rem;
+}
